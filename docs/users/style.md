@@ -192,12 +192,12 @@ and visually resembles how a corresponding HTML `<hr>` tag is typically rendered
 
 Mdformat applies consistent whitespace across the board:
 
-- Convert line endings to a single newline character
-- Strip paragraph trailing and leading whitespace
-- Indent contents of block quotes and list items consistently
-- Always separate blocks with a single empty line
+* Convert line endings to a single newline character
+* Strip paragraph trailing and leading whitespace
+* Indent contents of block quotes and list items consistently
+* Always separate blocks with a single empty line
   (an exception being tight lists where the separator is a single newline character)
-- Always end the document in a single newline character
+* Always end the document in a single newline character
   (an exception being an empty document)
 
 ## Hard line breaks

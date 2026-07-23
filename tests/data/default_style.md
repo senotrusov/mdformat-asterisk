@@ -36,13 +36,13 @@ list whitespaces
   
   - sublist
 .
-- item one
+* item one
 
-- item two
+* item two
 
-  - sublist
+  * sublist
 
-  - sublist
+  * sublist
 .
 
 convert setext to ATX heading
@@ -64,10 +64,10 @@ Lists with different bullets
 - b
 * c
 .
-- a
-- b
+* a
+* b
 
-* c
+- c
 .
 
 numbered lists
@@ -170,17 +170,17 @@ Bullet list marker type
 + e
 + f
 .
-- a
-- b
+* a
+* b
 
-* x
-* y
+- x
+- y
 
-- c
-- d
+* c
+* d
 
-* e
-* f
+- e
+- f
 .
 
 Empty list item
@@ -193,9 +193,9 @@ Empty list item
 1. 
 1. whitespace should be stripped
 .
-- next item is empty
--
-- whitespace should be stripped
+* next item is empty
+*
+* whitespace should be stripped
 
 1. next item is empty
 1.
@@ -217,7 +217,7 @@ Don't escape hash
 .
 - Recalculate secondary dependencies between rounds (#378)
 .
-- Recalculate secondary dependencies between rounds (#378)
+* Recalculate secondary dependencies between rounds (#378)
 .
 
 Only escape first ")" and "."
@@ -363,7 +363,7 @@ Indented raw HTML contains Markdown
 .
 <center>
 
-- list item
+* list item
 
 </center>
 .
