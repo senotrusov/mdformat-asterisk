@@ -82,8 +82,8 @@ def maybe_add_link_brackets(link: str) -> str:
 def get_list_marker_type(node: RenderTreeNode) -> str:
     if node.type == "bullet_list":
         mode = "bullet"
-        primary_marker = "-"
-        secondary_marker = "*"
+        primary_marker = "*"
+        secondary_marker = "-"
     else:
         mode = "ordered"
         primary_marker = "."
